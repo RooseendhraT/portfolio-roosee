@@ -1,0 +1,173 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body
+{
+    background-color: #003546;
+}
+.header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+.name
+{
+    position: relative;
+    font-size: 25px;
+    color: #ffffff;
+    margin-left: 20px;
+    text-decoration: none;
+    cursor: default;
+    opacity: 0;
+    animation: slideright .3s ease forwards;
+}
+.name span
+{
+    position: relative;
+    font-size: 16px;
+    padding:33px;
+}
+.navbar a
+{
+    display: inline-block;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    margin-left:25px;
+    text-decoration: none;
+    border-radius: 12px;
+    padding: 5px;
+    opacity: 0;
+    animation: slideright .3s ease forwards;
+    animation-delay: calc(.3s * var(--i));
+}
+.navbar a:hover{
+    color: #003546;
+    background-color: rgb(165, 164, 172)
+}
+.active{
+   padding: 8px;
+}
+.content
+{
+    position: relative; 
+    width: 100%;
+    justify-content: space-between;
+    background: #003546;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding:70px 10%;
+}
+.tab-content
+{
+    max-width: 800px;
+
+}
+.tab-content h2
+{
+    font-size: 32px;
+    color: #ffffff;
+    animation: slideleft .3s;
+    
+}
+.tab-content h3 span{
+    color: aqua;
+    
+}
+.tab-content h3 {
+    margin-bottom: 30px;
+    color: #ffffff;
+    animation: slideleft .3s;
+}
+.tab-content p{
+    color: #ffffff;
+    animation: slideleft .3s;
+}
+.skills h2{
+    margin-bottom: 30px;
+    color: #ffffff;
+    animation: slideleft .3s;
+}
+.tab-content.skills h2{
+    margin-bottom: 30px;
+}
+.tab-content.projects h2{
+    margin-bottom: 30px;
+}
+.tab-content{
+    display: none;
+}
+.tab-content.active {
+    display: block;
+}
+.home-sm a{ 
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border:2px solid aqua;
+    border-radius: 50%;
+    font-size: 20px;
+    color: aqua;
+    margin: 17px 25px 25px 0;
+    text-decoration: none;
+    transition: .2s ease;
+    opacity: 0;
+    animation: slideleft_1 .3s ease forwards;
+    animation-delay: calc(.3s * var(--i));
+}
+.home-content a:hover{
+    background: aqua;
+    color: #003546;
+    box-shadow: 0 0 20px aqua;
+
+
+}
+.footer{
+    
+}
+@keyframes slideright {
+    0%{
+        transform: translatey(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translatey(0px);
+        opacity: 1;
+    }
+}
+@keyframes slideleft{
+    0%{
+        transform: translatex(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translatex(0px);
+        opacity: 1;
+    }
+}
+@keyframes slideleft_1{
+    0%{
+        transform: translatex(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translatex(0px);
+        opacity: 1;
+    }
+}
