@@ -138,9 +138,6 @@ body
 
 
 }
-.footer{
-    
-}
 @keyframes slideright {
     0%{
         transform: translatey(-100px);
