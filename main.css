@@ -110,6 +110,7 @@ body
 }
 .tab-content{
     display: none;
+    width: 100%;
 }
 .tab-content.active {
     display: block;
@@ -135,8 +136,47 @@ body
     background: aqua;
     color: #003546;
     box-shadow: 0 0 20px aqua;
-
-
+}
+.pbar{
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    animation: slideleft .3s;
+}
+.skill-container{
+    margin-bottom: 20px;
+}
+label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #e0e0e0;
+}
+.progress-wrapper{
+    position: relative;
+}
+progress{
+    width: 100%;
+    max-width: 900px;
+    height: 10px;
+    appearance: none;
+    border-radius: 5px;
+}
+progress::-webkit-progress-bar{
+    background-color: #e0e0e0;
+    border-radius: 5px;
+}
+progress::-webkit-progress-value{
+    background-color: #06635b;
+    border-radius:  5px;
+}
+.progress-wrapper .percentage{
+    position: absolute;
+    margin-left: 5px;
+    padding: 3px;
+    font-weight: bold;
+    font-size: small;
+    color: #ffffff;
 }
 @keyframes slideright {
     0%{
