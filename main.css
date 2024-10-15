@@ -94,8 +94,10 @@ body
     animation: slideleft .3s;
 }
 .tab-content p{
+    margin-bottom: 15px;
     color: #ffffff;
     animation: slideleft .3s;
+
 }
 .skills h2{
     margin-bottom: 30px;
@@ -105,12 +107,19 @@ body
 .tab-content.skills h2{
     margin-bottom: 30px;
 }
-.tab-content.projects h2{
+.tab-content h2{
     margin-bottom: 30px;
 }
 .tab-content{
     display: none;
     width: 100%;
+}
+.tab-content.contact p a{
+    color: #e0e0e0;
+    margin-left: 20px;
+}
+.tab-content.contact p a:hover{
+    color: aqua;
 }
 .tab-content.active {
     display: block;
