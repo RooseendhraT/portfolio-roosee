@@ -1,0 +1,149 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.tab-contents, .content {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.navbar-nav .nav-link {
+    color: rgb(200, 200, 200) !important;
+     /* Ensure nav links are white */
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+    color: white !important; /* Ensure hover and focus color remains white */
+}
+
+.navbar-nav .nav-item.active .nav-link {
+    color: white !important; /* Ensure active links also remain white */
+}
+
+.project-item {
+    margin-bottom: 1.5rem;
+}
+
+.project-item h3 {
+    font-size: 1.5rem;
+    color: #343a40;
+}
+
+.project-item p {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.project-item a {
+    text-decoration: none;
+}
+
+.project-item a:hover {
+    text-decoration: underline;
+    background-color: #343a40;
+    color: #fff;
+}
+
+/* Skills Item Styling */
+.skills-item {
+    margin-bottom: 1.5rem;
+}
+
+.skills-item h3 {
+    font-size: 1.5rem;
+    color: #343a40;
+    font-weight: 600;
+}
+
+.skills-item p {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.skills-item a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #007bff;
+}
+
+.skills-item a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+/* Learning Status Styling */
+.skills-item .learning {
+    font-size: 0.9em;
+    color: #888;
+    opacity: 0.7;
+    font-style: italic;
+    margin-left: 8px;
+}
+
+/* Content layout */
+img {
+    filter: saturate(0%); /* Adjust the percentage as needed */
+}
+
+.learning {
+    font-size: 0.85em;   /* Makes the text smaller */
+    opacity: 0.6;        /* Reduces the opacity */
+    color: #555;         /* Optional: You can change the text color */
+}
+
+#home .img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.last-section {
+    margin-bottom: 0;
+}
+.footer {
+    width: 100%;
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    font-size: 0.85rem;
+
+}
+.footer a {
+    bottom: 0;
+    top: 0;
+    color: white;
+    text-decoration: none;
+}
+.footer .footer-content p {
+    margin: 8px; 
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+@media (min-width: 768px) {
+    #home .row {
+        display: flex;
+        align-items: center;
+    }
+}
