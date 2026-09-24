@@ -25,10 +25,10 @@ const skills = [
 function SocialLinks({ contact = false }) {
   return (
     <div className={contact ? "social-icons d-flex gap-3 mt-3" : "home-sm d-flex gap-3"}>
-      <a href="https://www.linkedin.com/in/rooseendhra" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+      <a href="https://www.linkedin.com/in/rooseendhrat" target="_blank" rel="noreferrer" aria-label="LinkedIn">
         <i className="bx bxl-linkedin" />
       </a>
-      <a href="https://wa.me/917603849450" target="_blank" rel="noreferrer" aria-label="WhatsApp">
+      <a href="https://wa.me/917603804950" target="_blank" rel="noreferrer" aria-label="WhatsApp">
         <i className="bx bxl-whatsapp" />
       </a>
       {!contact && (
@@ -128,7 +128,7 @@ function Contact() {
       <p>Here is my contact information:</p>
       <ul className="list-unstyled contact-info">
         <li><strong>Email:</strong> <a href="mailto:rooseendhrat@gmail.com">rooseendhrat@gmail.com</a></li>
-        <li><strong>Phone:</strong> <a href="tel:+917603849450">+91 76038 49450</a></li>
+        <li><strong>Phone:</strong> <a href="tel:+917603804950">+91 76038 04950</a></li>
         <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/rooseendhrat" target="_blank" rel="noreferrer">linkedin.com/in/rooseendhrat</a></li>
         <li><strong>GitHub:</strong> <a href="https://github.com/rooseendhrat" target="_blank" rel="noreferrer">github.com/rooseendhrat</a></li>
       </ul>
@@ -187,7 +187,7 @@ function App() {
 
       <footer className="footer">
         <div className="footer-content">
-          <p>Connect with me: <a href="https://www.linkedin.com/in/rooseendhra" target="_blank" rel="noreferrer">LinkedIn</a> | <a href="https://github.com/rooseendhrat" target="_blank" rel="noreferrer">GitHub</a> | <a href="mailto:rooseendhrat@gmail.com">Email me</a> | <a href="tel:+917603849450">Call me</a></p>
+          <p>Connect with me: <a href="https://www.linkedin.com/in/rooseendhrat" target="_blank" rel="noreferrer">LinkedIn</a> | <a href="https://github.com/rooseendhrat" target="_blank" rel="noreferrer">GitHub</a> | <a href="mailto:rooseendhrat@gmail.com">Email me</a> | <a href="tel:+917603849450">Call me</a></p>
         </div>
       </footer>
     </>
