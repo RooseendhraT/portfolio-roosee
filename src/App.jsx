@@ -187,7 +187,7 @@ function App() {
 
       <footer className="footer">
         <div className="footer-content">
-          <p>Connect with me: <a href="https://www.linkedin.com/in/rooseendhrat" target="_blank" rel="noreferrer">LinkedIn</a> | <a href="https://github.com/rooseendhrat" target="_blank" rel="noreferrer">GitHub</a> | <a href="mailto:rooseendhrat@gmail.com">Email me</a> | <a href="tel:+917603849450">Call me</a></p>
+          <p>Connect with me: <a href="https://www.linkedin.com/in/rooseendhrat" target="_blank" rel="noreferrer">LinkedIn</a> | <a href="https://github.com/rooseendhrat" target="_blank" rel="noreferrer">GitHub</a> | <a href="mailto:rooseendhrat@gmail.com">Email me</a> | <a href="tel:+917603804950">Call me</a></p>
         </div>
       </footer>
     </>
